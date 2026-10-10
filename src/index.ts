@@ -1,5 +1,11 @@
-// Reexport the native module. On web, it will be resolved to SpeechRecognizerModule.web.ts
-// and on native platforms to SpeechRecognizerModule.ts
-export { default } from './SpeechRecognizerModule';
-export { default as SpeechRecognizerView } from './SpeechRecognizerView';
-export * from  './SpeechRecognizer.types';
+export { default, default as SpeechRecognizer } from './SpeechRecognizerModule';
+export type {
+  PermissionsResult,
+  SpeechRecognizerModuleEvents,
+  TranscriptUpdateEvent,
+} from './SpeechRecognizerModule';
+export { useSpeechRecognition } from './useSpeechRecognition';
+export type {
+  UseSpeechRecognitionOptions,
+  UseSpeechRecognitionReturn,
+} from './useSpeechRecognition';

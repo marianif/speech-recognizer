@@ -3,8 +3,8 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "speech-recognizer": ["../src/index"],
-      "speech-recognizer/*": ["../src/*"]
+      "expo-speech-recognizer": ["../src/index"],
+      "expo-speech-recognizer/*": ["../src/*"]
     }
   }
 }

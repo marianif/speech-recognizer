@@ -55,3 +55,11 @@ yarn-error.log
 
 # Expo
 .expo/*
+
+# Example app generated native projects
+example/ios/
+example/android/
+example/.expo/
+
+# npm pack output
+*.tgz
